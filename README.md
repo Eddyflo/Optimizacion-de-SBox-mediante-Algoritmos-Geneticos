@@ -36,7 +36,8 @@ git clone https://github.com/Eddyflo/Optimizacion-de-SBox-mediante-Algoritmos-Ge
 ```
 # Para Windows (.exe)
 gcc evaluador.c -o evaluador.exe
-
+```
+```
 #Para linux
 gcc evaluador.c -o evaluador
 ```
