@@ -96,6 +96,6 @@ def crear_poblacion_inicial(tamano_poblacion):
     # Usamos los candidatos generados al inicio del script
     for i in range(min(tamano_poblacion, len(candidatos))):
         sbox_lista = construir_sbox_desde_matriz(candidatos[i])
-        # Convertimos a hex para que sea consistente con el resto de tu flujo
+        # Convertimos a hex para que sea consistente con el resto del flujo del AG
         poblacion.append(int_a_hex(sbox_lista))
     return poblacion
